@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/tailwind.min.css" rel="stylesheet" />
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+    <link href="/dist/fonts/stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CMA</title>
+</head>
+
+<body>
+    <div id="default-carousel" class="relative w-full mt-6" data-carousel="slide">
+        <div class="relative h-60 justify-items-center overflow-hidden rounded-lg md:h-96">
+            <div class="hidden duration-700 ease-in-out ml-16" data-carousel-item>
+                <img class="image1" src="images/image-2.png" alt="" srcset="" />
+            </div>
+            <div class="hidden duration-700 ease-in-out ml-16" data-carousel-item>
+                <img class="image1" src="images/camera-icon.png" alt="" srcset="" />
+            </div>
+            <div class="hidden duration-700 ease-in-out ml-16" data-carousel-item>
+                <img class="image1" src="images/image-2.png" alt="" srcset="" />
+            </div>
+            <div class="hidden duration-700 ease-in-out ml-16" data-carousel-item>
+                <img class="image1" src="images/camera-icon.png" alt="" srcset="" />
+            </div>
+            <div class="hidden duration-700 ease-in-out ml-16" data-carousel-item>
+                <img class="image1" src="images/image-2.png" alt="" srcset="" />
+            </div>
+        </div>
+    </div>
+
+    <div class=" mr-8 ml-8 -mt-8">
+        <h4 class="text-center justify-center consent-title">
+            Consent Management App
+        </h4>
+    </div>
+
+
+    <div class="max-w-fit mt-8 p-2  rounded-lg  md:p-8  ">
+        <form class="space-y-8" action="#">
+            <div class="ml-2 mr-2 ">
+                
+                <label for="website-admin" class="block mb-2   font-medium text-gray-900 ">
+                    <p class="labels text-lg">Email</p></label>
+                <div class="flex">
+                    <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-50 border border-r-0  rounded-l-lg ">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
+                                stroke="#B3B3B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9" stroke="#B3B3B3"
+                                stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <input type="email" name="email"  placeholder="Enter your email" id="website-admin" class="rounded-none input-layout border-l-0 rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900  flex-1 min-w-0 w-full text-sm p-2.5  " placeholder="Enter your email">
+                </div>
+            
+
+                <label for="website-admin" class="block mb-2 mt-2 text-sm font-medium text-gray-900 ">
+                  <p class="labels text-lg">Password</p>  
+                </label>
+                <div class="flex">
+                    <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-50 border border-r-0  rounded-l-lg ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 10V8C6 4.69 7 2 12 2C17 2 18 4.69 18 8V10" stroke="#B3B3B3" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M17 22H7C3 22 2 21 2 17V15C2 11 3 10 7 10H17C21 10 22 11 22 15V17C22 21 21 22 17 22Z"
+                                stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M15.9965 16H16.0054" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M11.9955 16H12.0045" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7.99451 16H8.00349" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <input type="password" id="website-admin" name="password" id="password" placeholder="Enter password" class="rounded-none  input-layout border-b-1 border-t-1 border-r-0 border-l-0 rounded-0 bg-gray-50 border-gray-300 text-gray-900  flex-1 min-w-0 max-w-[400px] text-sm p-2.5  "
+                        placeholder="Enter you password">
+
+                    <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-50  rounded-l-0 border border-l-0 rounded-r-lg ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.41998 13.98 8.41998 12C8.41998 10.02 10.02 8.42001 12 8.42001C13.98 8.42001 15.58 10.02 15.58 12Z"
+                                stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M12 20.27C15.53 20.27 18.82 18.19 21.11 14.59C22.01 13.18 22.01 10.81 21.11 9.4C18.82 5.8 15.53 3.72 12 3.72C8.47003 3.72 5.18003 5.8 2.89003 9.4C1.99003 10.81 1.99003 13.18 2.89003 14.59C5.18003 18.19 8.47003 20.27 12 20.27Z"
+                                stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="flex items-start ml-2">
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                    </div>
+                    <label for="remember" class="ml-2 text-sm font-medium text-gray-900 ">
+                        <p class="labels text-lg">Remember me</p></label>
+                </div>
+            </div>
+
+
+            <div class="mt-8 mr-4 ml-4">
+                <div class="flex mb-4 items-center">
+                    <button class="w-full h-12 px-6 text-xl  rounded-lg  thank-button text-white">
+                        Sign In
+                        <img src="images/white-r-arrow.png" alt="" srcset="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-rows-2 justify-items-center">
+                <div class="row">
+                    <a href="#" class="ml-auto text-center text-sm text-black hover:underline ">
+                        <p class="labels text-xl">Forgot Password?</p></a>
+                </div>
+                <div class="row">
+                    <a href="#" class="text-orange-700 hover:underline text-xl">Reset</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="grid grid-cols-3 justify-center  shadow-xl ml-6 mt-10 rounded-lg safari-bar">
+        <div class="justify-self-start">
+            <button type="button">
+                <img src="images/icons-size.png" alt="" class="" />
+            </button>
+        </div>
+        <div class="justify-between">
+            <div class="grid grid-cols-2">
+                <div class="justify-between ml-2">
+                    <button type="button">
+                        <img src="images/icons-lock.png" alt="" class="" />
+                    </button>
+                </div>
+                <div class="justify-between -ml-2 -mt-1">
+                    <p class="">cma.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="justify-self-end">
+            <button type="button">
+                <img src="images/refresh.png" alt="" class="" />
+            </button>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-5 mt-4 shadow-xl pt-4 pb-4 safari-icons">
+        <div class="justify-self-start ml-4">
+            <button type="button">
+                <img src="images/chevron-backward.png" alt="" class="" />
+            </button>
+        </div>
+        <div class="justify-between ml-4">
+            <button type="button">
+                <img src="images/chevron-forward.png" alt="" class="" />
+            </button>
+        </div>
+        <div class="justify-between ml-4">
+            <button type="button">
+                <img src="images/icons-share.png" alt="" class="" />
+            </button>
+        </div>
+        <div class="justify-between ml-4">
+            <button type="button">
+                <img src="images/icons-book.png" alt="" class="" />
+            </button>
+        </div>
+        <div class="justify-self-end mr-4">
+            <button type="button">
+                <img src="images/windows.png" alt="" class="" />
+            </button>
+        </div>
+    </div>
+    <script src="/dist/js/tao.js"></script>
+    <script src="https://unpkg.com/alpinejs"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+</body>
+
+</html>

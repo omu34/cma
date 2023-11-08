@@ -1,0 +1,29 @@
+{
+  "name": "cma",
+  "version": "1.0.0",
+  "description": "CMA SITE",
+  "main": "index.js",
+  "scripts": {
+    "test": "watch",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "omu34"
+  },
+  "keywords": [
+    "strong",
+    "site"
+  ],
+  "author": "Bernar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "flowbite": "^2.0.0",
+    "swiper": "^11.0.3",
+    "taos": "^1.0.5"
+  }
+}
