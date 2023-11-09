@@ -1,20 +1,19 @@
 @font-face {
-    font-family: "avenir-regular";
-    src: url("/dist/fonts/avenir-regular.woff") format("woff");
+    font-family: 'avenir-regular';
+    src: url('/dist/fonts/avenir-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "avenir-bold";
-    src: url("/dist/fonts/avenir-bold.woff") format("woff");
+    font-family: 'avenir-bold';
+    src: url('/dist/fonts/avenir-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
-/* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
     .md:text-left {
@@ -22,18 +21,15 @@
         font-size: 24px;
     }
 
-    /* Add grid grid-cols-2 and text-sm */
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .text-sm {
         font-size: 0.875rem;
-        /* You can adjust the font size as needed */
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
     .md:text-left {
@@ -41,7 +37,6 @@
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
     .md:text-left {
@@ -49,7 +44,6 @@
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
     .md:text-left {
@@ -57,7 +51,6 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
     .md:text-left {
@@ -137,7 +130,7 @@
     font-family: avenir-bold;
     font-size: 25px;
     font-style: bold;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 140%;
     /* 33.6px */
     letter-spacing: -0.72px;
@@ -148,7 +141,7 @@
     font-family: avenir-bold;
     font-size: 18px;
     font-style: bold;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 140%;
     /* 25.2px */
     letter-spacing: -0.54px;
@@ -343,7 +336,7 @@ letter-spacing: -0.42px;
     font-family: avenir-bold;
     font-size: 16px;
     font-style: bold;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 140%;
     /* 19.6px */
     letter-spacing: -0.42px;
@@ -439,8 +432,8 @@ letter-spacing: -0.42px;
     text-align: center;
     font-family: avenir-bold;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
+    font-style: bold;
+    font-weight: 900;
     line-height: 140%;
     /* 50.4px */
     letter-spacing: -1.08px;
@@ -451,7 +444,7 @@ letter-spacing: -0.42px;
     align-self: stretch;
     text-align: center;
     /* Body Medium */
-    font-family: avenir-bold;
+    font-family: avenir-regular;
     font-size: 18px;
     font-style: bold;
     font-weight: 700;

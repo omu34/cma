@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "caniuse-lite": "^1.0.30001561",
     "flowbite": "^2.0.0",
     "swiper": "^11.0.3",
     "taos": "^1.0.5"
